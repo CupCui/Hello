@@ -19,7 +19,7 @@ export default {
     HelloWorld
   },
   created() {
-  	this.$router.push({path:'https://acupxxx.github.io'})
+	router.push({ path: 'https://acupxxx.github.io' })
   }
 }
 </script>
