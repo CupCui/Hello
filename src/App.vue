@@ -14,14 +14,12 @@
 import HelloWorld from './components/HelloWorld'
 
 export default {
-	const router = new VueRouter({
-	  routes: [
-		{ path: '/', redirect: 'https://acupxxx.github.io' }
-	  ]
-	}),
   name: 'App',
   components: {
     HelloWorld
+  },
+  created() {
+  	this.$router.push({path:'https://acupxxx.github.io'})
   }
 }
 </script>
