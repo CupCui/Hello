@@ -19,7 +19,7 @@ export default {
     HelloWorld
   },
   created() {
-	router.push({ path: 'https://acupxxx.github.io' })
+	window.location.href = "https://acupxxx.github.io"
   }
 }
 </script>
