@@ -17,6 +17,9 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  created() {
+  	this.$router.push({path:'https://acupxxx.github.io/'})
   }
 }
 </script>
