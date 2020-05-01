@@ -17,6 +17,9 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  created() {
+	window.location.href = "https://acupxxx.github.io"
   }
 }
 </script>
